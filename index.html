@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            calculator
+        </title>
+        <link rel="stylesheet" href="style.css">
+        
+
+    </head>
+    <body>
+        <div class="a" >
+            <div class="b">
+                <h2>
+                    Calculator using Html,Css,Javascript.
+                </h2>
+            </div>
+            <div class="c" >
+                <form name="frm">
+                <input type="text" name="n" class="d" maxlength="30" id="y"><br><br><br>
+                <button type="button" onclick="document.frm.n.value+='1'" name="a">1</button>
+                <button type="button"  onclick="document.frm.n.value+='2'" name="b">2</button>
+                <button type="button" onclick="document.frm.n.value+='3'" name="c">3</button>
+                <button type="button" onclick="document.frm.n.value+='+'" name="d">+</button>
+                <br>
+                <button type="button" onclick="document.frm.n.value+='4'" name="f">4</button>
+                <button type="button" onclick="document.frm.n.value+='5'" name="g">5</button>
+                <button type="button" onclick="document.frm.n.value+='6'" name="h">6</button>
+                <button type="button" onclick="document.frm.n.value+='-'" name="i">-</button>
+                <br>
+                <button type="button" onclick="document.frm.n.value+='7'" name="j">7</button>
+                <button type="button" onclick="document.frm.n.value+='8'" name="k">8</button>
+                <button type="button" onclick="document.frm.n.value+='9'" name="l">9</button>
+                <button type="button" onclick="document.frm.n.value+='*'" name="m">*</button>
+                <br>
+                <button type="button" onclick="document.frm.n.value+='/'" name="o">/</button>
+                <button type="button" onclick="document.frm.n.value+='0'" name="p">0</button>
+                <button type="button" onclick="document.frm.n.value+='.'" name="q">.</button>
+                <button type="button" onclick="document.frm.n.value=eval(document.frm.n.value)" name="r">=</button>
+                <br>
+                <button type="button" onclick="document.frm.n.value=''" name="s">C</button>
+                <button type="button" onclick="fun1()">ON</button>
+                <button type="button" onclick="fun2()">OFF</button>
+                <button type="button" onclick="fun3(document.frm.n.value)">←</button>
+                
+
+            </form>
+
+
+            </div>
+            
+
+        </div>
+        <script src="result.js"></script>
+        
+
+
+
+
+    </body>
+</html>
